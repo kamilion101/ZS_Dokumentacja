@@ -1,0 +1,45 @@
+	\newpage
+\section{Projektowanie}		%3
+%Opis przygotowania narzędzi (git, visual studio). Wybór i opis bibliotek, klas. Szkic layoutów. Pseudo kody. Opisy wykorzystanych algorytmów (np. algorytm sortowania). Dokładniejsze określenie założeń i działania aplikacji, (np.: ten przycisk otworzy takie okno a w tym oknie wpisujemy takie dane).
+
+\subsection{Przygotowanie narzędzi Git oraz Visual Studio}
+
+\hspace{1cm}W celu korzystania z narzędzia Git należy utworzyć na swoim komputerze repozytorium lokalne oraz dodać do niego pliki projektu. Na platformie GitHub utworzyć repozytorium zdalne, które umożliwi wszystkim autorom projektu współprace przy tworzeniu aplikacji.
+\newline
+W Visual Studio należy zainstalować dodatek opracowywanie aplikacji mobilnych za pomocą środowiska Xamarin oraz zestaw Android SDK, który umożliwia korzystanie z emulatora.
+Do tworzenia projeku wybraliśmy szablo aplikacji mobilnej Xamarin.Forms.
+
+\subsection{Biblioteki i klasy}
+\hspace{1cm} Biblioteka Xamarin.Essentials udostępnia międzyplatformowy interfejs programowania aplikacji mobilnych (API). Jest ona dostępna jako pakiet NuGet i jest uwzględniana w każdym nowym projekcie w programie Visual Studio.
+Biblioteka ta oferuje klasy, które zostaną przez nas użyte podczas tworzenia projektu.
+\newline
+Geolokalizacja:
+\newline
+Klasa Geolocation udostępnia interfejsy API do pobierania bieżących współrzędnych geolokalizacji urządzenia.
+\newline
+Motyw aplikacji:
+\newline
+Interfejs API RequestedTheme jest częścią AppInfo klasy i zawiera informacje dotyczące tematu żądanego dla uruchomionej aplikacji przez system.
+\newline
+Akcelerometr:
+\newline
+Klasa Accelerometer umożliwia monitorowanie czujnika przyspieszeniomierza urządzenia, który wskazuje przyspieszenie urządzenia w trójwymiarowej przestrzeni.
+\newline
+Klasa GoogleMap:
+\newline
+Firma Google oferuje natywny interfejs API mapowania dla systemu Android. Pozwala on na zmienianie punktu widzenia mapy, dodawanie i dostosowywanie znaczników, oznaczanie mapy za pomocą nakładek.
+\newline
+Wymagania wstępne Mapy API usługi Google: uzyskanie klucza Mapy API, zainstalowanie pakietu Xamarin.GooglePlayServices i Mapy pakietu z NuGet, określenie wymaganych uprawnień.
+\newline
+Klasa GoogleMap poprzez aplikację platformy Xamarin.Android będzie współdziałała z aplikacją Google Maps.
+\newline
+\newline
+Biblioteka Microsoft Authentication Library (MSAL) pozwala na dodawanie uwierzytelniania do aplikacja. Umożliwi to logowanie do aplikacji przy użyciu Google lub Facebook.
+\newline
+Klasa WebAuthenticator umożliwia inicjowanie przepływów opartych na przeglądarce, które nasłuchują wywołania zwrotnego do określonego adresu URL zarejestrowanego w aplikacji.
+\newline
+
+
+
+ 
+ 

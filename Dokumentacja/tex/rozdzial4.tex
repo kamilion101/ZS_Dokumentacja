@@ -1,0 +1,28 @@
+	\newpage
+\section{Implementacja}		%4
+%Wkleić szkielet kodu, wraz z komentarzami. Opisać zmienne, struktury do czego służą. Opisać procedury, metody co wykonują. Opisać nowe zdefiniowane klasy. Opisać dziedziczenie. Opisać nowo utworzone pliki za co odpowiadają.
+Tworznie Menu: \newline
+W activity\_main\_drawer.xml:
+\newline
+- andriod:id - nadanie nazwy elementu
+\newline
+- android:icon - wybranie jednej z domyślnych ikon do menu
+\newline
+- android:title - dodaje napis, który będzie wyświetlany na elemencie
+\newline
+Przykład:
+\newline  
+android:id="@+id/nav\_mapmode" \newline
+android:icon="@android:drawable/ic menu\_mapmode" \newline
+android:title="Mapa" \newline
+W MainActivity.cs:
+\newline
+W funkcji public boolOnNavigationItemSelected(IMenuItem item) warunek id == Resource.ID.[nazwa elementu] określa dla którego elementu będzie wykonywana dana instrukcja. \newline
+Przykład: \newline
+if (id == Resource.Id.nav\_mapmode) \newline
+\{ \newline
+  \newline
+\}
+ 
+
+
