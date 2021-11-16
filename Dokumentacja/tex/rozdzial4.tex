@@ -2,27 +2,27 @@
 \section{Implementacja}		%4
 %Wkleić szkielet kodu, wraz z komentarzami. Opisać zmienne, struktury do czego służą. Opisać procedury, metody co wykonują. Opisać nowe zdefiniowane klasy. Opisać dziedziczenie. Opisać nowo utworzone pliki za co odpowiadają.
 Tworznie Menu: \newline
-W activity\_main\_drawer.xml:
+W \textbf{activity\_main\_drawer.xml}:
 \newline
-- andriod:id - nadanie nazwy elementu
+- \textbf{andriod:id} - nadanie nazwy elementu
 \newline
-- android:icon - wybranie jednej z domyślnych ikon do menu
+- \textbf{android:icon} - wybranie jednej z domyślnych ikon do menu
 \newline
-- android:title - dodaje napis, który będzie wyświetlany na elemencie
+- \textbf{android:title} - dodaje napis, który będzie wyświetlany na elemencie
 \newline
 Przykład:
 \newline  
-android:id="@+id/nav\_mapmode" \newline
+\textbf{android:id="@+id/nav\_mapmode" \newline
 android:icon="@android:drawable/ic menu\_mapmode" \newline
-android:title="Mapa" \newline
-W MainActivity.cs:
+android:title="Mapa"} \newline
+W \textbf{MainActivity.cs}:
 \newline
-W funkcji public boolOnNavigationItemSelected(IMenuItem item) warunek id == Resource.ID.[nazwa elementu] określa dla którego elementu będzie wykonywana dana instrukcja. \newline
+W funkcji \textbf{public boolOnNavigationItemSelected(IMenuItem item)} warunek \textbf{id == Resource.ID.[nazwa elementu]} określa dla którego elementu będzie wykonywana dana instrukcja. \newline
 Przykład: \newline
-if (id == Resource.Id.nav\_mapmode) \newline
+\textbf{if (id == Resource.Id.nav\_mapmode) \newline
 \{ \newline
   \newline
-\}
+\}}
  
 
 

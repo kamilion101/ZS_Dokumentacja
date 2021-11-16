@@ -10,36 +10,69 @@ W Visual Studio należy zainstalować dodatek opracowywanie aplikacji mobilnych 
 Do tworzenia projeku wybraliśmy szablo aplikacji mobilnej Xamarin.Forms.
 
 \subsection{Biblioteki i klasy}
-\hspace{1cm} Biblioteka Xamarin.Essentials udostępnia międzyplatformowy interfejs programowania aplikacji mobilnych (API). Jest ona dostępna jako pakiet NuGet i jest uwzględniana w każdym nowym projekcie w programie Visual Studio.
+\hspace{1cm} \textbf{Biblioteka Xamarin.Essentials} udostępnia międzyplatformowy interfejs programowania aplikacji mobilnych (API). Jest ona dostępna jako pakiet NuGet i jest uwzględniana w każdym nowym projekcie w programie Visual Studio.
 Biblioteka ta oferuje klasy, które zostaną przez nas użyte podczas tworzenia projektu.
 \newline
-Geolokalizacja:
+\textbf{Geolokalizacja:}
 \newline
-Klasa Geolocation udostępnia interfejsy API do pobierania bieżących współrzędnych geolokalizacji urządzenia.
+\textbf{Klasa Geolocation} udostępnia interfejsy API do pobierania bieżących współrzędnych geolokalizacji urządzenia.
 \newline
-Motyw aplikacji:
+\textbf{Motyw aplikacji:}
 \newline
-Interfejs API RequestedTheme jest częścią AppInfo klasy i zawiera informacje dotyczące tematu żądanego dla uruchomionej aplikacji przez system.
+Interfejs API RequestedTheme jest częścią klasy AppInfo i zawiera informacje dotyczące tematu żądanego dla uruchomionej aplikacji przez system.
 \newline
-Akcelerometr:
+\textbf{Akcelerometr:}
 \newline
-Klasa Accelerometer umożliwia monitorowanie czujnika przyspieszeniomierza urządzenia, który wskazuje przyspieszenie urządzenia w trójwymiarowej przestrzeni.
+\textbf{Klasa Accelerometer} umożliwia monitorowanie czujnika przyspieszeniomierza urządzenia, który wskazuje przyspieszenie urządzenia w trójwymiarowej przestrzeni.
 \newline
-Klasa GoogleMap:
+\textbf{GoogleMap:}
 \newline
 Firma Google oferuje natywny interfejs API mapowania dla systemu Android. Pozwala on na zmienianie punktu widzenia mapy, dodawanie i dostosowywanie znaczników, oznaczanie mapy za pomocą nakładek.
 \newline
 Wymagania wstępne Mapy API usługi Google: uzyskanie klucza Mapy API, zainstalowanie pakietu Xamarin.GooglePlayServices i Mapy pakietu z NuGet, określenie wymaganych uprawnień.
 \newline
-Klasa GoogleMap poprzez aplikację platformy Xamarin.Android będzie współdziałała z aplikacją Google Maps.
+\textbf{Klasa GoogleMap} poprzez aplikację platformy Xamarin.Android będzie współdziałała z aplikacją Google Maps.
 \newline
 \newline
-Biblioteka Microsoft Authentication Library (MSAL) pozwala na dodawanie uwierzytelniania do aplikacja. Umożliwi to logowanie do aplikacji przy użyciu Google lub Facebook.
+\textbf{Biblioteka Microsoft Authentication Library (MSAL)} pozwala na dodawanie uwierzytelniania do aplikacja. Umożliwi to logowanie do aplikacji przy użyciu Google lub Facebook.
 \newline
-Klasa WebAuthenticator umożliwia inicjowanie przepływów opartych na przeglądarce, które nasłuchują wywołania zwrotnego do określonego adresu URL zarejestrowanego w aplikacji.
+\textbf{Klasa WebAuthenticator} umożliwia inicjowanie przepływów opartych na przeglądarce, które nasłuchują wywołania zwrotnego do określonego adresu URL zarejestrowanego w aplikacji.
 \newline
 
-
-
+\subsection{Layouty dla opcji z menu}
+Po wybraniu z menu opcji \textbf{Mapa} na ekranie wyświetli się mapa pokazująca przebytą trasę oraz zaznaczająca miejsce w którym użytkownik w danym momencie się znajduje.
+Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione przez użytkownika.
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=16cm]{rys/Mapa.png}
+		\caption{Layout - Mapa}
+		\label{rys:rysunek003}
+	\end{center}
+\end{figure}
+\newline Opcja \textbf{Wyniki} wyświetli stronę zawierającą wyniki z ostatnich 7 dni oraz najlepszy wynik z całej historii. Wśród wyświetlanych wyników znajdą się: Przybyta odległość, liczba kroków oraz liczba spalonych kalorii. Pozwoli to użytkownikowi na porównywanie swoich wyników oraz zmotywuje do poprawiania rekordowych wyników.
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=8cm]{rys/Wyniki.png}
+		\caption{Layout - Wyniki}
+		\label{rys:rysunek004}
+	\end{center}
+\end{figure}
+\newline Wybór opcji \textbf{Zdjęcia} otworzy galerie zdjęć wykonanych przez użytkownika. Zdjęcia będą przedstawiać miejsca docelowe uwiecznione aparatem telefonu.
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=6cm]{rys/Zdjęcia.png}
+		\caption{Layout - Zdjęcia}
+		\label{rys:rysunek005}
+	\end{center}
+\end{figure}
+\newline
+\newline Opcja \textbf{Wybierz} normę pozwala na wybranie dystansu jaki użytkownik planuje przebyć w ciągu dnia. Polega to na zaznaczeniu checkboxa obok wybranej odległości.
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=8cm]{rys/Wybierz.png}
+		\caption{Layout - Wybierz normę}
+		\label{rys:rysunek006}
+	\end{center}
+\end{figure}
  
  

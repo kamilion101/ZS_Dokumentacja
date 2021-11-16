@@ -19,14 +19,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Biblioteki i klasy}{6}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Implementacja}{8}{section.4}%
+\contentsline {subsection}{\numberline {3.3}Layouty dla opcji z menu}{7}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Testowanie}{9}{section.5}%
+\contentsline {section}{\numberline {4}Implementacja}{10}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Podręcznik użytkownika}{10}{section.6}%
+\contentsline {section}{\numberline {5}Testowanie}{11}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatura}{11}{section.6}%
+\contentsline {section}{\numberline {6}Podręcznik użytkownika}{12}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Spis rysunków}{12}{section*.3}%
+\contentsline {section}{Literatura}{13}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Spis tabel}{13}{section*.3}%
+\contentsline {section}{Spis rysunków}{14}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Spis tabel}{15}{section*.7}%
