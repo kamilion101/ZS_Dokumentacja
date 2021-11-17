@@ -1,28 +1,46 @@
 	\newpage
 \section{Implementacja}		%4
 %Wkleić szkielet kodu, wraz z komentarzami. Opisać zmienne, struktury do czego służą. Opisać procedury, metody co wykonują. Opisać nowe zdefiniowane klasy. Opisać dziedziczenie. Opisać nowo utworzone pliki za co odpowiadają.
-Tworznie Menu: \newline
-W \textbf{activity\_main\_drawer.xml}:
+\textbf{Tworznie Menu:} \newline
+Do stworzenia menu użyty został \textbf{Xamarin.forms Shell}, który zmiejsza złożoność tworzenia aplikacji, oferując podstawowe funkcje. Obejmuje on wspólne środowisko użytkownika nawigacji, schematu nawigacji i zintegrowanej procedury obsługi wyszukiwania.
 \newline
-- \textbf{andriod:id} - nadanie nazwy elementu
 \newline
-- \textbf{android:icon} - wybranie jednej z domyślnych ikon do menu
+\textbf{Dodawanie strony do menu na przykładzie elementu wyniki:}
 \newline
-- \textbf{android:title} - dodaje napis, który będzie wyświetlany na elemencie
+W pliku \textbf{MainPage.xaml}:
 \newline
-Przykład:
-\newline  
-\textbf{android:id="@+id/nav\_mapmode" \newline
-android:icon="@android:drawable/ic menu\_mapmode" \newline
-android:title="Mapa"} \newline
-W \textbf{MainActivity.cs}:
 \newline
-W funkcji \textbf{public boolOnNavigationItemSelected(IMenuItem item)} warunek \textbf{id == Resource.ID.[nazwa elementu]} określa dla którego elementu będzie wykonywana dana instrukcja. \newline
-Przykład: \newline
-\textbf{if (id == Resource.Id.nav\_mapmode) \newline
-\{ \newline
-  \newline
-\}}
- 
+\textbf{[FlyoutItem Title="MyTabAPP" \newline
+\hspace{1cm}Shell.TabBarIsVisible="False" \newline
+\hspace{1cm}FlyoutDisplayOptions="AsMultipleItems"] \newline
+\hspace{0.5cm}[ShellContent Title="Wyniki" Icon="ic\_wyniki" \newline
+ContentTemplate="\{DataTemplate local:Wyniki\}"/] \newline
+[/FlyoutItem]} \newline
+\newline
+, gdzie "ic\_wyniki" to nazwa ikonki a "local:Wyniki" to odnośnik do plików strony "Wyniki", które znajdują się w folderze głównym projektu. 
+\newline
+\newline
+\textbf{Dodawanie ikonek do projektu:} \newline
+Ikonki pobrane zostały z \textbf{Android Asset Studio} w formacie ".png". \newline
+Aby użyć ikonki w projekcie należy umieścić je w dwóch osobnych miejscach. Dla androida jest to folder \textbf{drawable} znajdujący się w folderze resources a dla systemu iOS folder \textbf{resources}.
+\newline \newline
+\newpage
+Działanie menu bocznego w emulatorze Android 8.1:
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=6cm]{rys/ZSmenu.png}
+		\caption{Widok menu bocznego}
+		\label{rys:rysunek007}
+	\end{center}
+\end{figure}
+\newline \newline
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=5cm]{rys/ZSotwartastrona.png}
+		\caption{Widok strony otwartej po wybraniu danej opcji z menu}
+		\label{rys:rysunek008}
+	\end{center}
+\end{figure}
+ \newpage
 
 

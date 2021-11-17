@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.2)  16 NOV 2021 22:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.2)  17 NOV 2021 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,19 +1156,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
 [9 <./rys/Wybierz.png>]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-5.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+8.
  (c:/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 18.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--26
+Underfull \hbox (badness 10000) in paragraph at lines 4--27
 
  []
 
-) (./tex/rozdzial5.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--27
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1177,7 +1201,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[10]) (./tex/rozdzial6.tex
+[10]
+<rys/ZSmenu.png, id=150, 230.66174pt x 377.61075pt>
+File: rys/ZSmenu.png Graphic file (type png)
+<use rys/ZSmenu.png>
+Package pdftex.def Info: rys/ZSmenu.png  used on input line 31.
+(pdftex.def)             Requested size: 170.71652pt x 279.47943pt.
+<rys/ZSotwartastrona.png, id=151, 228.25275pt x 375.20175pt>
+File: rys/ZSotwartastrona.png Graphic file (type png)
+<use rys/ZSotwartastrona.png>
+Package pdftex.def Info: rys/ZSotwartastrona.png  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 233.85356pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--44
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1186,7 +1225,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[11])
+[11 <./rys/ZSmenu.png> <./rys/ZSotwartastrona.png>]) (./tex/rozdzial5.tex)
+(./tex/rozdzial6.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1195,7 +1235,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[12]
+[12])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.68669pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.68669pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
+
+[13]
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
 79.
  (c:/texlive/2021/texmf-dist/tex/latex/polski/ot4cmtt.fd
@@ -1209,7 +1258,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[13] (./dokument.lof)
+[14] (./dokument.lof)
 \tf@lof=\write7
 \openout7 = `dokument.lof'.
 
@@ -1222,7 +1271,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[14
+[15
 
 ] (./dokument.lot)
 \tf@lot=\write8
@@ -1241,39 +1290,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[15] (./dokument.aux)
+[16] (./dokument.aux)
 Package rerunfilecheck Info: File `dokument.out' has not changed.
-(rerunfilecheck)             Checksum: 5A46B79721D8FE257CB9DC87131BB60C;2637.
+(rerunfilecheck)             Checksum: 06B3E2F5C6AAE2C25C0D5B14CF155D4E;2637.
 Package logreq Info: Writing requests to 'dokument.run.xml'.
 \openout1 = `dokument.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23072 strings out of 478579
- 379562 string characters out of 5857458
- 1134283 words of memory out of 5000000
- 40552 multiletter control sequences out of 15000+600000
- 418623 words of font info for 69 fonts, out of 8000000 for 9000
+ 23102 strings out of 478579
+ 380078 string characters out of 5857458
+ 1134426 words of memory out of 5000000
+ 40576 multiletter control sequences out of 15000+600000
+ 418930 words of font info for 70 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  65i,11n,69p,1084b,1702s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/pl/pltt.enc}{c:/texlive/2021/texm
 f-dist/fonts/enc/dvips/pl/plsc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/
 pl/plit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plrm.enc}<c:/texlive
 /2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2021/te
-xmf-dist/fonts/type1/public/pl/plbx10.pfb><c:/texlive/2021/texmf-dist/fonts/typ
-e1/public/pl/plbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plcsc
-10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/
-2021/texmf-dist/fonts/type1/public/pl/plr12.pfb><c:/texlive/2021/texmf-dist/fon
-ts/type1/public/pl/plr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/
-plr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plss12.pfb><c:/texli
-ve/2021/texmf-dist/fonts/type1/public/pl/plssbx10.pfb><c:/texlive/2021/texmf-di
-st/fonts/type1/public/pl/plti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
-lic/pl/plti12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/pltt12.pfb>
-
-Output written on dokument.pdf (15 pages, 361696 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type
+1/public/pl/plbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plbx12
+.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plcsc10.pfb><c:/texlive/
+2021/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2021/texmf-dist/fon
+ts/type1/public/pl/plr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/
+plr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plr8.pfb><c:/texliv
+e/2021/texmf-dist/fonts/type1/public/pl/plss12.pfb><c:/texlive/2021/texmf-dist/
+fonts/type1/public/pl/plssbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
+ic/pl/plti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plti12.pfb><
+c:/texlive/2021/texmf-dist/fonts/type1/public/pl/pltt12.pfb>
+Output written on dokument.pdf (16 pages, 407301 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
