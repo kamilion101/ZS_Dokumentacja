@@ -23,12 +23,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Implementacja}{10}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Testowanie}{12}{section.5}%
+\contentsline {section}{\numberline {5}Testowanie}{13}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Podręcznik użytkownika}{13}{section.6}%
+\contentsline {section}{\numberline {6}Podręcznik użytkownika}{14}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatura}{14}{section.6}%
+\contentsline {section}{Literatura}{15}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Spis rysunków}{15}{section*.9}%
+\contentsline {section}{Spis rysunków}{15}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Spis tabel}{16}{section*.9}%
+\contentsline {section}{Spis tabel}{16}{section.6}%

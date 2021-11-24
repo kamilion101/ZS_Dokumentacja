@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.2)  17 NOV 2021 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.2)  24 NOV 2021 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,12 +1046,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
 [3]
-<rys/Ap1.png, id=102, 267.399pt x 452.892pt>
+<rys/Ap1.png, id=101, 267.399pt x 452.892pt>
 File: rys/Ap1.png Graphic file (type png)
 <use rys/Ap1.png>
 Package pdftex.def Info: rys/Ap1.png  used on input line 18.
 (pdftex.def)             Requested size: 85.35826pt x 144.56905pt.
-<rys/Ap2.png, id=103, 267.399pt x 451.6875pt>
+<rys/Ap2.png, id=102, 267.399pt x 451.6875pt>
 File: rys/Ap2.png Graphic file (type png)
 <use rys/Ap2.png>
 Package pdftex.def Info: rys/Ap2.png  used on input line 28.
@@ -1099,7 +1099,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
 [6]
-<rys/Mapa.png, id=120, 580.569pt x 486.01575pt>
+<rys/Mapa.png, id=119, 580.569pt x 486.01575pt>
 File: rys/Mapa.png Graphic file (type png)
 <use rys/Mapa.png>
 Package pdftex.def Info: rys/Mapa.png  used on input line 47.
@@ -1109,17 +1109,17 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 47--48
  [] 
  []
 
-<rys/Wyniki.png, id=121, 297.5115pt x 316.7835pt>
+<rys/Wyniki.png, id=120, 297.5115pt x 316.7835pt>
 File: rys/Wyniki.png Graphic file (type png)
 <use rys/Wyniki.png>
 Package pdftex.def Info: rys/Wyniki.png  used on input line 55.
 (pdftex.def)             Requested size: 227.62204pt x 242.3724pt.
-<rys/Zdjęcia.png, id=122, 242.1045pt x 299.9205pt>
+<rys/Zdjęcia.png, id=121, 242.1045pt x 299.9205pt>
 File: rys/Zdjęcia.png Graphic file (type png)
 <use rys/Zdjęcia.png>
 Package pdftex.def Info: rys/Zdjęcia.png  used on input line 63.
 (pdftex.def)             Requested size: 170.71652pt x 211.48973pt.
-<rys/Wybierz.png, id=124, 198.7425pt x 255.95625pt>
+<rys/Wybierz.png, id=123, 198.7425pt x 255.95625pt>
 File: rys/Wybierz.png Graphic file (type png)
 <use rys/Wybierz.png>
 Package pdftex.def Info: rys/Wybierz.png  used on input line 72.
@@ -1156,40 +1156,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
 [9 <./rys/Wybierz.png>]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-8.
- (c:/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 18.
+<rys/item.png, id=142, 492.03825pt x 80.7015pt>
+File: rys/item.png Graphic file (type png)
+<use rys/item.png>
+Package pdftex.def Info: rys/item.png  used on input line 15.
+(pdftex.def)             Requested size: 341.43306pt x 56.00056pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--27
+Underfull \hbox (badness 10000) in paragraph at lines 4--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--27
+Underfull \hbox (badness 10000) in paragraph at lines 4--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--27
+Underfull \hbox (badness 10000) in paragraph at lines 4--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--27
+Underfull \hbox (badness 10000) in paragraph at lines 4--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--27
+Underfull \hbox (badness 10000) in paragraph at lines 4--28
 
  []
 
@@ -1201,19 +1194,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[10]
-<rys/ZSmenu.png, id=150, 230.66174pt x 377.61075pt>
+[10 <./rys/item.png>]
+<rys/ZSmenu.png, id=149, 230.66174pt x 377.61075pt>
 File: rys/ZSmenu.png Graphic file (type png)
 <use rys/ZSmenu.png>
-Package pdftex.def Info: rys/ZSmenu.png  used on input line 31.
+Package pdftex.def Info: rys/ZSmenu.png  used on input line 32.
 (pdftex.def)             Requested size: 170.71652pt x 279.47943pt.
-<rys/ZSotwartastrona.png, id=151, 228.25275pt x 375.20175pt>
+<rys/ZSotwartastrona.png, id=150, 228.25275pt x 375.20175pt>
 File: rys/ZSotwartastrona.png Graphic file (type png)
 <use rys/ZSotwartastrona.png>
-Package pdftex.def Info: rys/ZSotwartastrona.png  used on input line 39.
+Package pdftex.def Info: rys/ZSotwartastrona.png  used on input line 40.
 (pdftex.def)             Requested size: 142.26378pt x 233.85356pt.
+<rys/checkboxy.png, id=151, 208.3785pt x 93.951pt>
+File: rys/checkboxy.png Graphic file (type png)
+<use rys/checkboxy.png>
+Package pdftex.def Info: rys/checkboxy.png  used on input line 51.
+(pdftex.def)             Requested size: 341.43306pt x 153.94302pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--44
+Underfull \hbox (badness 10000) in paragraph at lines 29--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--56
 
  []
 
@@ -1225,8 +1228,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[11 <./rys/ZSmenu.png> <./rys/ZSotwartastrona.png>]) (./tex/rozdzial5.tex)
-(./tex/rozdzial6.tex
+[11 <./rys/ZSmenu.png> <./rys/ZSotwartastrona.png>]) (./tex/rozdzial5.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1235,7 +1237,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[12])
+[12 <./rys/checkboxy.png>]) (./tex/rozdzial6.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1244,12 +1246,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[13]
-LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
-79.
- (c:/texlive/2021/texmf-dist/tex/latex/polski/ot4cmtt.fd
-File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
+[13])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1258,7 +1255,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[14] (./dokument.lof)
+[14]
+
+LaTeX Warning: Empty bibliography on input line 79.
+
+(./dokument.lof)
 \tf@lof=\write7
 \openout7 = `dokument.lof'.
 
@@ -1292,38 +1293,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16] (./dokument.aux)
 Package rerunfilecheck Info: File `dokument.out' has not changed.
-(rerunfilecheck)             Checksum: 06B3E2F5C6AAE2C25C0D5B14CF155D4E;2637.
+(rerunfilecheck)             Checksum: 5F936CD3B98BE6018D2E7ED4F9C4B0EE;2635.
 Package logreq Info: Writing requests to 'dokument.run.xml'.
 \openout1 = `dokument.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23102 strings out of 478579
- 380078 string characters out of 5857458
- 1134426 words of memory out of 5000000
- 40576 multiletter control sequences out of 15000+600000
- 418930 words of font info for 70 fonts, out of 8000000 for 9000
+ 22849 strings out of 478579
+ 375221 string characters out of 5857458
+ 1134511 words of memory out of 5000000
+ 40334 multiletter control sequences out of 15000+600000
+ 417022 words of font info for 65 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  65i,11n,69p,1084b,1702s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/pl/pltt.enc}{c:/texlive/2021/texm
-f-dist/fonts/enc/dvips/pl/plsc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/
-pl/plit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plrm.enc}<c:/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2021/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type
-1/public/pl/plbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plbx12
-.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plcsc10.pfb><c:/texlive/
-2021/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2021/texmf-dist/fon
-ts/type1/public/pl/plr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/
-plr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plr8.pfb><c:/texliv
-e/2021/texmf-dist/fonts/type1/public/pl/plss12.pfb><c:/texlive/2021/texmf-dist/
-fonts/type1/public/pl/plssbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
-ic/pl/plti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plti12.pfb><
-c:/texlive/2021/texmf-dist/fonts/type1/public/pl/pltt12.pfb>
-Output written on dokument.pdf (16 pages, 407301 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{c:/texlive/2021/texm
+f-dist/fonts/enc/dvips/pl/plit.enc}<c:/texlive/2021/texmf-dist/fonts/type1/publ
+ic/pl/plbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plbx12.pfb><
+c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2021/tex
+mf-dist/fonts/type1/public/pl/plr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1
+/public/pl/plr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plr8.pfb
+><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plss12.pfb><c:/texlive/2021/
+texmf-dist/fonts/type1/public/pl/plssbx10.pfb><c:/texlive/2021/texmf-dist/fonts
+/type1/public/pl/plti10.pfb>
+Output written on dokument.pdf (16 pages, 372572 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

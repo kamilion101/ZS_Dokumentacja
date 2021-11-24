@@ -10,14 +10,15 @@ Do stworzenia menu użyty został \textbf{Xamarin.forms Shell}, który zmiejsza 
 W pliku \textbf{MainPage.xaml}:
 \newline
 \newline
-\textbf{[FlyoutItem Title="MyTabAPP" \newline
-\hspace{1cm}Shell.TabBarIsVisible="False" \newline
-\hspace{1cm}FlyoutDisplayOptions="AsMultipleItems"] \newline
-\hspace{0.5cm}[ShellContent Title="Wyniki" Icon="ic\_wyniki" \newline
-ContentTemplate="\{DataTemplate local:Wyniki\}"/] \newline
-[/FlyoutItem]} \newline
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=12cm]{rys/item.png}
+		\caption{Dodanie strony Menu do menu bocznego}
+		\label{rys:rysunek007}
+	\end{center}
+\end{figure}
 \newline
-, gdzie "ic\_wyniki" to nazwa ikonki a "local:Wyniki" to odnośnik do plików strony "Wyniki", które znajdują się w folderze głównym projektu. 
+, gdzie \textbf{ic\_wyniki} to nazwa ikonki a \textbf{local:Wyniki} to odnośnik do plików strony "Wyniki", które znajdują się w folderze głównym projektu. 
 \newline
 \newline
 \textbf{Dodawanie ikonek do projektu:} \newline
@@ -30,7 +31,7 @@ Działanie menu bocznego w emulatorze Android 8.1:
 	\begin{center}
 		\includegraphics[width=6cm]{rys/ZSmenu.png}
 		\caption{Widok menu bocznego}
-		\label{rys:rysunek007}
+		\label{rys:rysunek008}
 	\end{center}
 \end{figure}
 \newline \newline
@@ -38,9 +39,21 @@ Działanie menu bocznego w emulatorze Android 8.1:
 	\begin{center}
 		\includegraphics[width=5cm]{rys/ZSotwartastrona.png}
 		\caption{Widok strony otwartej po wybraniu danej opcji z menu}
-		\label{rys:rysunek008}
+		\label{rys:rysunek009}
 	\end{center}
 \end{figure}
- \newpage
+ \newline
+ \textbf{Dodanie pól wyboru na stronie "Wybierz normę":} \newline
+ Do stworzenia pól wyboru z których można wybrąć tylko jedną opcję potrzebne jest zainstalowanie pakietu Nuget \textbf{Xamarin.Forms.InputKit}. Przy użyciu tego pakietu można użyć opcji \textbf{RadioButton}, dzięki której tworzona jest lista z polami do wyboru. \newline \newline
+ Fragment kodu z pliku \textbf{Wybierz\_norme.xml}: \newline
+ \begin{figure}[!htb]
+ 	\begin{center}
+ 		\includegraphics[width=12cm]{rys/checkboxy.png}
+ 		\caption{Dodanie opcji z polami do wyboru}
+ 		\label{rys:rysunek010}
+ 	\end{center}
+ \end{figure}
+  
+  
 
 
