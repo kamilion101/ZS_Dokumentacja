@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Z5kxGFf5iy+aG+xef/VJHXGjl8eib4b7RhWWKCDkCpww6A1f8nJZQ2keAa4ibgFDQUf6csaUhrybbHFc1w/Qg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kamil\\Desktop\\ZdrowySpacer\\ZdrowySpacer\\ZdrowySpacer\\ZdrowySpacer.iOS\\ZdrowySpacer.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kamil\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\xamarin.forms.inputkit\\3.7.2\\xamarin.forms.inputkit.3.7.2.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\xamarin.forms.maps\\4.4.0.991265\\xamarin.forms.maps.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

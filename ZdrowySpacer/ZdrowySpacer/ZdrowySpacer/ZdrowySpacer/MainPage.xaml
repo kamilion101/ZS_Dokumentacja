@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:ZdrowySpacer"
+             x:Class="ZdrowySpacer.MainPage">
+
+    <FlyoutItem Title="MyTabAPP"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Strona główna" Icon="ic_strona_glowna" ContentTemplate="{DataTemplate local:Strona_glowna}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="MyTabAPP"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Mapa" Icon="ic_mapa" ContentTemplate="{DataTemplate local:Mapa}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="MyTabAPP"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Wyniki" Icon="ic_wyniki" ContentTemplate="{DataTemplate local:Wyniki}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="MyTabAPP"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Zdjęcia" Icon="ic_zdjecia" ContentTemplate="{DataTemplate local:Zdjecia}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="MyTabAPP"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Wybierz normę" Icon="ic_wybierz_norme" ContentTemplate="{DataTemplate local:Wybierz_norme}"/>
+    </FlyoutItem>
+
+</Shell>

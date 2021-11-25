@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             x:Class="ZdrowySpacer.Wybierz_norme">
+    <StackLayout Spacing="12" Padding="30,0">
+        <Label Text="Wybierz normę: " FontSize="Large"></Label>
+
+        <input:RadioButtonGroupView>
+            <input:RadioButton Text="5 km" />
+            <input:RadioButton Text="10 km " />
+            <input:RadioButton Text="15 km" />
+            <input:RadioButton Text="20 km" />
+        </input:RadioButtonGroupView>
+
+    </StackLayout>
+
+</ContentPage>
