@@ -21,14 +21,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Layouty dla opcji z menu}{7}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Implementacja}{10}{section.4}%
+\contentsline {subsection}{\numberline {3.4}Stworzenie pliku apk na Androida z poziomu Visual Studio}{9}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Testowanie}{13}{section.5}%
+\contentsline {section}{\numberline {4}Implementacja}{12}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Podręcznik użytkownika}{14}{section.6}%
+\contentsline {section}{\numberline {5}Testowanie}{16}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatura}{15}{section.6}%
+\contentsline {section}{\numberline {6}Podręcznik użytkownika}{17}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Spis rysunków}{15}{section.6}%
+\contentsline {section}{Literatura}{18}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Spis tabel}{16}{section.6}%
+\contentsline {section}{Spis rysunków}{18}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Spis tabel}{19}{section.6}%

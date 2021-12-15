@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.2)  24 NOV 2021 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.2)  15 DEC 2021 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,12 +1046,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
 [3]
-<rys/Ap1.png, id=101, 267.399pt x 452.892pt>
+<rys/Ap1.png, id=106, 267.399pt x 452.892pt>
 File: rys/Ap1.png Graphic file (type png)
 <use rys/Ap1.png>
 Package pdftex.def Info: rys/Ap1.png  used on input line 18.
 (pdftex.def)             Requested size: 85.35826pt x 144.56905pt.
-<rys/Ap2.png, id=102, 267.399pt x 451.6875pt>
+<rys/Ap2.png, id=107, 267.399pt x 451.6875pt>
 File: rys/Ap2.png Graphic file (type png)
 <use rys/Ap2.png>
 Package pdftex.def Info: rys/Ap2.png  used on input line 28.
@@ -1099,7 +1099,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
 [6]
-<rys/Mapa.png, id=119, 580.569pt x 486.01575pt>
+<rys/Mapa.png, id=124, 580.569pt x 486.01575pt>
 File: rys/Mapa.png Graphic file (type png)
 <use rys/Mapa.png>
 Package pdftex.def Info: rys/Mapa.png  used on input line 47.
@@ -1109,17 +1109,17 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 47--48
  [] 
  []
 
-<rys/Wyniki.png, id=120, 297.5115pt x 316.7835pt>
+<rys/Wyniki.png, id=125, 297.5115pt x 316.7835pt>
 File: rys/Wyniki.png Graphic file (type png)
 <use rys/Wyniki.png>
 Package pdftex.def Info: rys/Wyniki.png  used on input line 55.
 (pdftex.def)             Requested size: 227.62204pt x 242.3724pt.
-<rys/Zdjęcia.png, id=121, 242.1045pt x 299.9205pt>
+<rys/Zdjęcia.png, id=126, 242.1045pt x 299.9205pt>
 File: rys/Zdjęcia.png Graphic file (type png)
 <use rys/Zdjęcia.png>
 Package pdftex.def Info: rys/Zdjęcia.png  used on input line 63.
 (pdftex.def)             Requested size: 170.71652pt x 211.48973pt.
-<rys/Wybierz.png, id=123, 198.7425pt x 255.95625pt>
+<rys/Wybierz.png, id=128, 198.7425pt x 255.95625pt>
 File: rys/Wybierz.png Graphic file (type png)
 <use rys/Wybierz.png>
 Package pdftex.def Info: rys/Wybierz.png  used on input line 72.
@@ -1146,7 +1146,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[8 <./rys/Wyniki.png> <./rys/Zdjęcia.png>]) (./tex/rozdzial4.tex
+[8 <./rys/Wyniki.png> <./rys/Zdjęcia.png>]
+<rys/apk_1.png, id=142, 636.57825pt x 186.09525pt>
+File: rys/apk_1.png Graphic file (type png)
+<use rys/apk_1.png>
+Package pdftex.def Info: rys/apk_1.png  used on input line 82.
+(pdftex.def)             Requested size: 341.43306pt x 99.8141pt.
+<rys/apk_2.png, id=143, 404.10976pt x 211.992pt>
+File: rys/apk_2.png Graphic file (type png)
+<use rys/apk_2.png>
+Package pdftex.def Info: rys/apk_2.png  used on input line 90.
+(pdftex.def)             Requested size: 341.43306pt x 179.11687pt.
+<rys/apk_3.png, id=144, 1129.821pt x 458.9145pt>
+File: rys/apk_3.png Graphic file (type png)
+<use rys/apk_3.png>
+Package pdftex.def Info: rys/apk_3.png  used on input line 98.
+(pdftex.def)             Requested size: 341.43306pt x 138.68376pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1155,8 +1171,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[9 <./rys/Wybierz.png>]
-<rys/item.png, id=142, 492.03825pt x 80.7015pt>
+[9 <./rys/Wybierz.png> <./rys/apk_1.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.68669pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.68669pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
+
+[10 <./rys/apk_2.png> <./rys/apk_3.png>]
+<rys/apk_4.png, id=158, 625.1355pt x 298.11375pt>
+File: rys/apk_4.png Graphic file (type png)
+<use rys/apk_4.png>
+Package pdftex.def Info: rys/apk_4.png  used on input line 107.
+(pdftex.def)             Requested size: 341.43306pt x 162.8213pt.
+<rys/apk_5.png, id=159, 626.94225pt x 401.0985pt>
+File: rys/apk_5.png Graphic file (type png)
+<use rys/apk_5.png>
+Package pdftex.def Info: rys/apk_5.png  used on input line 115.
+(pdftex.def)             Requested size: 341.43306pt x 218.43828pt.
+) (./tex/rozdzial4.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.68669pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.68669pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
+
+[11 <./rys/apk_4.png> <./rys/apk_5.png>]
+<rys/item.png, id=166, 492.03825pt x 80.7015pt>
 File: rys/item.png Graphic file (type png)
 <use rys/item.png>
 Package pdftex.def Info: rys/item.png  used on input line 15.
@@ -1194,18 +1239,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[10 <./rys/item.png>]
-<rys/ZSmenu.png, id=149, 230.66174pt x 377.61075pt>
+[12 <./rys/item.png>]
+<rys/ZSmenu.png, id=173, 230.66174pt x 377.61075pt>
 File: rys/ZSmenu.png Graphic file (type png)
 <use rys/ZSmenu.png>
 Package pdftex.def Info: rys/ZSmenu.png  used on input line 32.
 (pdftex.def)             Requested size: 170.71652pt x 279.47943pt.
-<rys/ZSotwartastrona.png, id=150, 228.25275pt x 375.20175pt>
+<rys/ZSotwartastrona.png, id=174, 228.25275pt x 375.20175pt>
 File: rys/ZSotwartastrona.png Graphic file (type png)
 <use rys/ZSotwartastrona.png>
 Package pdftex.def Info: rys/ZSotwartastrona.png  used on input line 40.
 (pdftex.def)             Requested size: 142.26378pt x 233.85356pt.
-<rys/checkboxy.png, id=151, 208.3785pt x 93.951pt>
+<rys/checkboxy.png, id=175, 208.3785pt x 93.951pt>
 File: rys/checkboxy.png Graphic file (type png)
 <use rys/checkboxy.png>
 Package pdftex.def Info: rys/checkboxy.png  used on input line 51.
@@ -1228,7 +1273,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[11 <./rys/ZSmenu.png> <./rys/ZSotwartastrona.png>]) (./tex/rozdzial5.tex
+[13 <./rys/ZSmenu.png> <./rys/ZSotwartastrona.png>]
+<rys/map_manifest.png, id=183, 635.976pt x 46.37325pt>
+File: rys/map_manifest.png Graphic file (type png)
+<use rys/map_manifest.png>
+Package pdftex.def Info: rys/map_manifest.png  used on input line 67.
+(pdftex.def)             Requested size: 512.1496pt x 37.3463pt.
+
+Overfull \hbox (85.35825pt too wide) in paragraph at lines 67--68
+ [] 
+ []
+
+<rys/mapa_xaml_cs.png, id=184, 642.60075pt x 211.992pt>
+File: rys/mapa_xaml_cs.png Graphic file (type png)
+<use rys/mapa_xaml_cs.png>
+Package pdftex.def Info: rys/mapa_xaml_cs.png  used on input line 78.
+(pdftex.def)             Requested size: 512.1496pt x 168.96304pt.
+
+Overfull \hbox (85.35825pt too wide) in paragraph at lines 78--79
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--83
+
+ []
+
+<rys/mapa_xaml.png, id=185, 260.77425pt x 22.28325pt>
+File: rys/mapa_xaml.png Graphic file (type png)
+<use rys/mapa_xaml.png>
+Package pdftex.def Info: rys/mapa_xaml.png  used on input line 88.
+(pdftex.def)             Requested size: 227.62204pt x 19.45085pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1237,7 +1312,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[12 <./rys/checkboxy.png>]) (./tex/rozdzial6.tex
+[14 <./rys/checkboxy.png> <./rys/map_manifest.png>]) (./tex/rozdzial5.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1246,7 +1321,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[13])
+[15 <./rys/mapa_xaml_cs.png> <./rys/mapa_xaml.png>]) (./tex/rozdzial6.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.68669pt, for example:
@@ -1255,7 +1330,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[14]
+[16])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.68669pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.68669pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
+
+[17]
 
 LaTeX Warning: Empty bibliography on input line 79.
 
@@ -1272,7 +1356,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[15
+[18
 
 ] (./dokument.lot)
 \tf@lot=\write8
@@ -1291,18 +1375,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.68669pt}.
 
-[16] (./dokument.aux)
+[19] (./dokument.aux)
 Package rerunfilecheck Info: File `dokument.out' has not changed.
-(rerunfilecheck)             Checksum: 5F936CD3B98BE6018D2E7ED4F9C4B0EE;2635.
+(rerunfilecheck)             Checksum: EF8AC7C4CEEC2E9B394908D5DA16AC8A;3020.
 Package logreq Info: Writing requests to 'dokument.run.xml'.
 \openout1 = `dokument.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22849 strings out of 478579
- 375221 string characters out of 5857458
- 1134511 words of memory out of 5000000
- 40334 multiletter control sequences out of 15000+600000
+ 22926 strings out of 478579
+ 376606 string characters out of 5857458
+ 1135078 words of memory out of 5000000
+ 40391 multiletter control sequences out of 15000+600000
  417022 words of font info for 65 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  65i,11n,69p,1084b,1702s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1315,10 +1399,10 @@ mf-dist/fonts/type1/public/pl/plr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1
 ><c:/texlive/2021/texmf-dist/fonts/type1/public/pl/plss12.pfb><c:/texlive/2021/
 texmf-dist/fonts/type1/public/pl/plssbx10.pfb><c:/texlive/2021/texmf-dist/fonts
 /type1/public/pl/plti10.pfb>
-Output written on dokument.pdf (16 pages, 372572 bytes).
+Output written on dokument.pdf (19 pages, 527767 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,10 +13,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {{3}.4}{\ignorespaces Layout - Wybierz normę\relax }}{9}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{4}.1}{\ignorespaces Dodanie strony Menu do menu bocznego\relax }}{10}{figure.caption.7}%
+\contentsline {figure}{\numberline {{3}.5}{\ignorespaces Odznaczenie właściwości w Opcjach systemu Android\relax }}{9}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{4}.2}{\ignorespaces Widok menu bocznego\relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {{3}.6}{\ignorespaces Archiwizacja rozwiązania dla systemu Android\relax }}{10}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{4}.3}{\ignorespaces Widok strony otwartej po wybraniu danej opcji z menu\relax }}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {{3}.7}{\ignorespaces Dystrybucja pliku\relax }}{10}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{4}.4}{\ignorespaces Dodanie opcji z polami do wyboru\relax }}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {{3}.8}{\ignorespaces Wybranie kanału dystrybucji\relax }}{11}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{3}.9}{\ignorespaces Podpis za pomocą aliasu\relax }}{11}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{4}.1}{\ignorespaces Dodanie strony Menu do menu bocznego\relax }}{12}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{4}.2}{\ignorespaces Widok menu bocznego\relax }}{13}{figure.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{4}.3}{\ignorespaces Widok strony otwartej po wybraniu danej opcji z menu\relax }}{13}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{4}.4}{\ignorespaces Dodanie opcji z polami do wyboru\relax }}{14}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{4}.5}{\ignorespaces Dodanie nowych deklaracji w AndroidManifest.xaml\relax }}{14}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{4}.6}{\ignorespaces Dodanie funkcji w mapa.xaml.cs\relax }}{15}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{4}.7}{\ignorespaces Ustawienie opcji w mapa.xaml\relax }}{15}{figure.caption.18}%

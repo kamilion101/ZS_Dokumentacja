@@ -1,7 +1,7 @@
 	\newpage
 \section{Implementacja}		%4
 %Wkleić szkielet kodu, wraz z komentarzami. Opisać zmienne, struktury do czego służą. Opisać procedury, metody co wykonują. Opisać nowe zdefiniowane klasy. Opisać dziedziczenie. Opisać nowo utworzone pliki za co odpowiadają.
-\textbf{Tworznie Menu:} \newline
+\textbf{Tworznie Menu:} \newline 
 Do stworzenia menu użyty został \textbf{Xamarin.forms Shell}, który zmiejsza złożoność tworzenia aplikacji, oferując podstawowe funkcje. Obejmuje on wspólne środowisko użytkownika nawigacji, schematu nawigacji i zintegrowanej procedury obsługi wyszukiwania.
 \newline
 \newline
@@ -14,7 +14,7 @@ W pliku \textbf{MainPage.xaml}:
 	\begin{center}
 		\includegraphics[width=12cm]{rys/item.png}
 		\caption{Dodanie strony Menu do menu bocznego}
-		\label{rys:rysunek007}
+		\label{rys:rysunek012}
 	\end{center}
 \end{figure}
 \newline
@@ -31,7 +31,7 @@ Działanie menu bocznego w emulatorze Android 8.1:
 	\begin{center}
 		\includegraphics[width=6cm]{rys/ZSmenu.png}
 		\caption{Widok menu bocznego}
-		\label{rys:rysunek008}
+		\label{rys:rysunek013}
 	\end{center}
 \end{figure}
 \newline \newline
@@ -39,7 +39,7 @@ Działanie menu bocznego w emulatorze Android 8.1:
 	\begin{center}
 		\includegraphics[width=5cm]{rys/ZSotwartastrona.png}
 		\caption{Widok strony otwartej po wybraniu danej opcji z menu}
-		\label{rys:rysunek009}
+		\label{rys:rysunek014}
 	\end{center}
 \end{figure}
  \newline
@@ -50,10 +50,47 @@ Działanie menu bocznego w emulatorze Android 8.1:
  	\begin{center}
  		\includegraphics[width=12cm]{rys/checkboxy.png}
  		\caption{Dodanie opcji z polami do wyboru}
- 		\label{rys:rysunek010}
+ 		\label{rys:rysunek015}
  	\end{center}
  \end{figure}
-  
+ 
+
+ \textbf{Dodanie mapy pokazującej obecną lokalizację}
+ \newline
+ Użycie pakietu Nuget xamarin.forms.maps umożliwia wyświetlenie na stronie mapy ze znacznikiem pokazującym obecną lokalizacje.
+ \newline 
+ W pliku \textbf{AndroidManifest.xml} w sekcji application - meta-data należy dodać klucz interfejsu API, który można utworzyć na stronie \textbf{developers.google.com}. Wprowadzić należy także nazwe metadanych dla klucza intefejsu API.
+ Kolejna linijka również posiada sekcję meta-data i określa numer wersji Google Play usługi. W sekcji uses-library deklarowana jest biblioteka Apache HTTP.
+
+ \begin{figure}[!htb]
+ 	\begin{center}
+ 		\includegraphics[width=18cm]{rys/map_manifest.png}
+ 		\caption{Dodanie nowych deklaracji w AndroidManifest.xaml}
+ 		\label{rys:rysunek016}
+ 	\end{center}
+ \end{figure}
+ 
+ W pliku \textbf{mapa.xaml.cs} utworzona została klasa \textbf{DisplayCurLoc}, w której zawarte są instrukcje odpowiedzialne za wykrycie obecnej lokalizacji.
+ \newline
+ \newline
+ \begin{figure}[!htb]
+ 	\begin{center}
+ 		\includegraphics[width=18cm]{rys/mapa_xaml_cs.png}
+ 		\caption{Dodanie funkcji w mapa.xaml.cs}
+ 		\label{rys:rysunek017}
+ 	\end{center}
+ \end{figure}
+ 
+ W pliku \textbf{mapa.xaml} wartość opcji IsShowingUser ustawiona jest jako True, dzięki czemu na mapie wyświetlony zostanie znacznik wskazujący na obecną lokalizację. Opcja x:Name nadaje nazwę dla używanej mapy.
+ \newline
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=8cm]{rys/mapa_xaml.png}
+		\caption{Ustawienie opcji w mapa.xaml}
+		\label{rys:rysunek018}
+	\end{center}
+\end{figure}
+   
   
 
 
