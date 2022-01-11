@@ -16,5 +16,23 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{www1}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Strona internetowa firmy Microsoft}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/pl-pl/xamarin/essentials/?context=xamarin/xamarin-forms
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/pl-pl/xamarin/essentials/?context=xamarin/xamarin-forms
+      \endverb
+      \warn{\item Entry 'www1' (bibliografia.bib): Invalid format '2021-11-6' of date field 'urldate' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

@@ -21,9 +21,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Layouty dla opcji z menu}{7}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Stworzenie pliku apk na Androida z poziomu Visual Studio}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Stworzenie pliku apk na Androida z poziomu Visual Studio}{7}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Implementacja}{12}{section.4}%
+\contentsline {section}{\numberline {4}Implementacja}{9}{section.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Testowanie}{20}{section.5}%
 \defcounter {refsection}{0}\relax 
@@ -31,6 +31,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Literatura}{24}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Spis rysunków}{25}{figure.caption.33}%
+\contentsline {section}{Spis rysunków}{26}{section*.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Spis tabel}{26}{figure.caption.33}%
+\contentsline {section}{Spis tabel}{27}{section*.34}%
