@@ -7,11 +7,12 @@
 \hspace{1cm}W celu korzystania z narzędzia Git należy utworzyć na swoim komputerze repozytorium lokalne oraz dodać do niego pliki projektu. Na platformie GitHub utworzyć repozytorium zdalne, które umożliwi wszystkim autorom projektu współprace przy tworzeniu aplikacji.
 \newline
 W Visual Studio należy zainstalować dodatek opracowywanie aplikacji mobilnych za pomocą środowiska Xamarin oraz zestaw Android SDK, który umożliwia korzystanie z emulatora.
-Do tworzenia projeku wybraliśmy szablo aplikacji mobilnej Xamarin.Forms.
+Do tworzenia projeku wybraliśmy szablon aplikacji mobilnej Xamarin.Forms.
+Xamarin.Forms ma duży ekosystem bibliotek, które dodają różne funkcje do aplikacji. W tej sekcji opisano niektóre z tych dodatkowych funkcji\footnote{https://docs.microsoft.com/pl-pl/xamarin/get-started/what-is-xamarin-forms\cite{www1}.}.
 
 \subsection{Biblioteki i klasy}
 \hspace{1cm} \textbf{Biblioteka Xamarin.Essentials} udostępnia międzyplatformowy interfejs programowania aplikacji mobilnych (API). Jest ona dostępna jako pakiet NuGet i jest uwzględniana w każdym nowym projekcie w programie Visual Studio.
-Biblioteka ta oferuje klasy, które zostaną przez nas użyte podczas tworzenia projektu\footnote{https://docs.microsoft.com/pl-pl/xamarin/essentials/?context=xamarin/xamarin-forms\cite{www1}.}.
+Biblioteka ta oferuje klasy, które zostaną przez nas użyte podczas tworzenia projektu\footnote{https://docs.microsoft.com/pl-pl/xamarin/essentials/?context=xamarin/xamarin-forms\cite{www2}.}.
 \newline
 \textbf{Geolokalizacja:}
 \newline
@@ -31,7 +32,7 @@ Firma Google oferuje natywny interfejs API mapowania dla systemu Android. Pozwal
 \newline
 Wymagania wstępne Mapy API usługi Google: uzyskanie klucza Mapy API, zainstalowanie pakietu Xamarin.GooglePlayServices i Mapy pakietu z NuGet, określenie wymaganych uprawnień.
 \newline
-\textbf{Klasa GoogleMap} poprzez aplikację platformy Xamarin.Android będzie współdziałała z aplikacją Google Maps.
+\textbf{Klasa GoogleMaps} poprzez aplikację platformy Xamarin.Android będzie współdziałała z aplikacją Google Maps.
 \newline
 \newline
 \textbf{Biblioteka Microsoft Authentication Library (MSAL)} pozwala na dodawanie uwierzytelniania do aplikacja. Umożliwi to logowanie do aplikacji przy użyciu Google lub Facebook.
@@ -40,16 +41,16 @@ Wymagania wstępne Mapy API usługi Google: uzyskanie klucza Mapy API, zainstalo
 \newline
 
 \subsection{Layouty dla opcji z menu}
-Po wybraniu z menu opcji \textbf{Mapa} na ekranie wyświetli się mapa pokazująca przebytą trasę oraz zaznaczająca miejsce w którym użytkownik w danym momencie się znajduje.
+Po wybraniu z menu opcji \textbf{Mapa} na ekranie wyświetli się mapa pokazująca przebytą trasę oraz zaznaczająca miejsce w którym użytkownik w danym momencie się znajduje co jest pokazane na rysunku 3.1.
 Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione przez użytkownika.
 \begin{figure}[!htb]
 	\begin{center}
-		\includegraphics[width=16cm]{rys/Mapa.png}
+		\includegraphics[width=10cm]{rys/Mapa.png}
 		\caption{Layout - Mapa}
 		\label{rys:rysunek003}
 	\end{center}
 \end{figure}
-\newline Opcja \textbf{Wyniki} wyświetli stronę zawierającą wyniki z ostatnich 7 dni oraz najlepszy wynik z całej historii. Wśród wyświetlanych wyników znajdą się: Przybyta odległość, liczba kroków oraz liczba spalonych kalorii. Pozwoli to użytkownikowi na porównywanie swoich wyników oraz zmotywuje do poprawiania rekordowych wyników.
+\newline Opcja \textbf{Wyniki} wyświetli stronę zawierającą wyniki z ostatnich 7 dni oraz najlepszy wynik z całej historii. Wśród wyświetlanych wyników znajdą się: Przybyta odległość, liczba kroków oraz liczba spalonych kalorii jak na rysunku 3.2. Pozwoli to użytkownikowi na porównywanie swoich wyników oraz zmotywuje do poprawiania rekordowych wyników.
 \begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=8cm]{rys/Wyniki.png}
@@ -57,7 +58,7 @@ Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione pr
 		\label{rys:rysunek004}
 	\end{center}
 \end{figure}
-\newline Wybór opcji \textbf{Zdjęcia} otworzy galerie zdjęć wykonanych przez użytkownika. Zdjęcia będą przedstawiać miejsca docelowe uwiecznione aparatem telefonu.
+\newline Wybór opcji \textbf{Zdjęcia} otworzy galerie zdjęć wykonanych przez użytkownika jak na rysunku 3.3. Zdjęcia będą przedstawiać miejsca docelowe uwiecznione aparatem telefonu.
 \begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=6cm]{rys/Zdjęcia.png}
@@ -66,7 +67,7 @@ Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione pr
 	\end{center}
 \end{figure}
 \newline
-\newline Opcja \textbf{Wybierz} normę pozwala na wybranie dystansu jaki użytkownik planuje przebyć w ciągu dnia. Polega to na zaznaczeniu checkboxa obok wybranej odległości.
+\newline Opcja \textbf{Wybierz} normę pozwala na wybranie dystansu jaki użytkownik planuje przebyć w ciągu dnia. Polega to na zaznaczeniu checkboxa obok wybranej odległości zo jest widoczne na rysunku 3.4.
 \begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=8cm]{rys/Wybierz.png}
@@ -76,7 +77,7 @@ Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione pr
 \end{figure}
  
  \subsection{Stworzenie pliku apk na Androida z poziomu Visual Studio}
- \hspace{1cm}Aby umożliwić stworzenie pliku apk w Visual Studio należy wejść w właściwości rozwiązania dla systemu Android.Następnie w opcjach systemu Android trzeba odznaczyć opcję \textbf{Użyj udostępnionego środowiska uruchomieniowego}
+ \hspace{1cm}Aby umożliwić stworzenie pliku apk w Visual Studio należy wejść w właściwości rozwiązania dla systemu Android.Następnie w opcjach systemu Android trzeba odznaczyć opcję \textbf{Użyj udostępnionego środowiska uruchomieniowego} jak na rysunku 3.5.
  \begin{figure}[!htb]
  	\begin{center}
  		\includegraphics[width=12cm]{rys/apk_1.png}
@@ -84,7 +85,7 @@ Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione pr
  		\label{rys:rysunek007}
  	\end{center}
  \end{figure}
- \newline Kolejny krok to Archiwizacja rozwiązania dla systemu Android
+ \newline Na rysunku 3.6 widzimy, że kolejny krok to Archiwizacja rozwiązania dla systemu Android
  \begin{figure}[!htb]
  	\begin{center}
  		\includegraphics[width=12cm]{rys/apk_2.png}
@@ -92,7 +93,7 @@ Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione pr
  		\label{rys:rysunek008}
  	\end{center}
  \end{figure}
- \newline W \textbf{Menedżer archiwów} należy wybrać wersje aplikacji i nacisnąć przycisk \textbf{Dystrybuuj...}
+ \newline W \textbf{Menedżer archiwów} należy wybrać wersje aplikacji i nacisnąć przycisk \textbf{Dystrybuuj...} jak na rysunku 3.7.
  \begin{figure}[!htb]
  	\begin{center}
  		\includegraphics[width=12cm]{rys/apk_3.png}
@@ -101,7 +102,7 @@ Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione pr
  	\end{center}
  \end{figure}
 \newpage
- Jako kanał dystrybucji wybrać opcję \textbf{Ad Hoc}
+ Na rysunku 3.8 zaprezentowano wybór kanału dystrybucji jako opcji \textbf{Ad Hoc}
  \begin{figure}[!htb]
  	\begin{center}
  		\includegraphics[width=12cm]{rys/apk_4.png}
@@ -109,7 +110,7 @@ Na mapie będą się także wyświetlały zdjęcia miejsc docelowych zrobione pr
  		\label{rys:rysunek010}
  	\end{center}
  \end{figure}
- \newline Ostatni krok to podpisanie pliku za pomocą wcześniej utworzonego aliasu i wybranie miejsca w którym chcemy zapisać plik apk
+ \newline Ostatni krok to podpisanie pliku za pomocą wcześniej utworzonego aliasu jak widać na rysunku 3.9 i wybranie miejsca w którym chcemy zapisać plik apk
  \begin{figure}[!htb]
  	\begin{center}
  		\includegraphics[width=12cm]{rys/apk_5.png}

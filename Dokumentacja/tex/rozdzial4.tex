@@ -18,7 +18,7 @@ W pliku \textbf{MainPage.xaml}:
 	\end{center}
 \end{figure}
 \newline
-, gdzie \textbf{ic\_wyniki} to nazwa ikonki a \textbf{local:Wyniki} to odnośnik do plików strony "Wyniki", które znajdują się w folderze głównym projektu. 
+Na rysunku 4.1 \textbf{ic\_wyniki} to nazwa ikonki a \textbf{local:Wyniki} to odnośnik do plików strony "Wyniki", które znajdują się w folderze głównym projektu. 
 \newline
 \newline
 \textbf{Dodawanie ikonek do projektu:} \newline
@@ -34,7 +34,10 @@ Działanie menu bocznego w emulatorze Android 8.1:
 		\label{rys:rysunek013}
 	\end{center}
 \end{figure}
-\newline \newline
+
+Na rysunku 4.2 można zobaczyć menu boczne z opcjami do wyboru.
+
+
 \begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=5cm]{rys/ZSotwartastrona.png}
@@ -42,10 +45,12 @@ Działanie menu bocznego w emulatorze Android 8.1:
 		\label{rys:rysunek014}
 	\end{center}
 \end{figure}
- \newline
+
+Na rysunku 4.3 widzimy nowo otwartą stronę po wybraniu opcji z menu bocznego.
+
  \textbf{Dodanie pól wyboru na stronie "Wybierz normę":} \newline
  Do stworzenia pól wyboru z których można wybrąć tylko jedną opcję potrzebne jest zainstalowanie pakietu Nuget \textbf{Xamarin.Forms.InputKit}. Przy użyciu tego pakietu można użyć opcji \textbf{RadioButton}, dzięki której tworzona jest lista z polami do wyboru. \newline \newline
- Fragment kodu z pliku \textbf{Wybierz\_norme.xml}: \newline
+ Fragment kodu z pliku \textbf{Wybierz\_norme.xml} został pokazany na rysunku 4.4. \newline
  \begin{figure}[!htb]
  	\begin{center}
  		\includegraphics[width=12cm]{rys/checkboxy.png}
@@ -60,7 +65,7 @@ Działanie menu bocznego w emulatorze Android 8.1:
  Użycie pakietu Nuget xamarin.forms.maps umożliwia wyświetlenie na stronie mapy ze znacznikiem pokazującym obecną lokalizacje.
  \newline 
  W pliku \textbf{AndroidManifest.xml} w sekcji application - meta-data należy dodać klucz interfejsu API, który można utworzyć na stronie \textbf{developers.google.com}. Wprowadzić należy także nazwe metadanych dla klucza intefejsu API.
- Kolejna linijka również posiada sekcję meta-data i określa numer wersji Google Play usługi. W sekcji uses-library deklarowana jest biblioteka Apache HTTP.
+ Kolejna linijka również posiada sekcję meta-data i określa numer wersji Google Play usługi. W sekcji uses-library deklarowana jest biblioteka Apache HTTP jak to zostało pokazane na rysunku 4.5.
 
  \begin{figure}[!htb]
  	\begin{center}
@@ -70,7 +75,7 @@ Działanie menu bocznego w emulatorze Android 8.1:
  	\end{center}
  \end{figure}
  
- W pliku \textbf{mapa.xaml.cs} utworzona została klasa \textbf{DisplayCurLoc}, w której zawarte są instrukcje odpowiedzialne za wykrycie obecnej lokalizacji.
+ Na rysunku 4.6 widzimy fragment pliku \textbf{mapa.xaml.cs} w którym utworzona została klasa \textbf{DisplayCurLoc}, w której zawarte są instrukcje odpowiedzialne za wykrycie obecnej lokalizacji.
  \newline
  \newline
  \begin{figure}[!htb]
@@ -81,7 +86,7 @@ Działanie menu bocznego w emulatorze Android 8.1:
  	\end{center}
  \end{figure}
  
- W pliku \textbf{mapa.xaml} wartość opcji IsShowingUser ustawiona jest jako True, dzięki czemu na mapie wyświetlony zostanie znacznik wskazujący na obecną lokalizację. Opcja x:Name nadaje nazwę dla używanej mapy.
+ W pliku \textbf{mapa.xaml} wartość opcji IsShowingUser ustawiona jest jako True, dzięki czemu na mapie wyświetlony zostanie znacznik wskazujący na obecną lokalizację. Opcja x:Name nadaje nazwę dla używanej mapy tak jak na rysunku 4.7.
  \newline
 \begin{figure}[!htb]
 	\begin{center}
@@ -126,8 +131,8 @@ Na rysunku 4.9 znajduje się fragment kodu znajdującego się na stronie \textbf
 Na rysunku 4.10 przedstawiony jest fragment pliku \textbf{AndroidManifest.xml}. Aby prawidłowa obsługa aparatu była możliwa zadeklarowane muszą być zezwolenia na dostęp do uprawnień aparatu i pamięci zewnętrznej. \newline \newline
 
 \textbf{Rejestracja i logowanie z wykorzystaniem Google Firebase} \newline
-Baza danych Google Firebase umożliwia rejestrację oraz logowanie użytkowników do aplikacji. Użytkownicy, którzy utworzą nowe konto zostają zapisani w bazie danych i mają możliwość logowania się do aplikacji za pomocą adresu Email i hasła. \newline
-Do korzystania z autoryzacji Firebase konieczne jest pobranie dwóch pakietów Nuget: \textbf{Xamarin.Firebase.Auth} i \textbf{Xamarin.Firebase.Core} oraz inicjalizacja usługi w pliku \textbf{MainActivity.cs} w rozwiązaniu Android.
+Baza danych Google Firebase umożliwia rejestrację oraz logowanie użytkowników do aplikacji. Użytkownicy, którzy utworzą nowe konto zostają zapisani w bazie danych i mają możliwość logowania się do aplikacji za pomocą adresu Email i hasła\footnote{https://firebase.google.com/docs/auth\cite{www3}.}. \newline
+Do korzystania z autoryzacji Firebase konieczne jest pobranie dwóch pakietów Nuget: \textbf{Xamarin.Firebase.Auth} i \textbf{Xamarin.Firebase.Core} oraz inicjalizacja usługi w pliku \textbf{MainActivity.cs} w rozwiązaniu Android co zostało pokazane na rysunku 4.11.
 
 \begin{figure}[!htb]
 	\begin{center}
@@ -159,8 +164,8 @@ W rozwiązaniu dla Androida utworzono klasę \textbf{AuthDroid.cs} w której zna
 	\end{center}
 \end{figure}
 
-Prz użyciu autoryzacji Firebase torzone jest nowe konto użytkownika. Pobrany zostaje Email i hasło a użytkownik otrzymuje unikalny numer Uid. Aby konto zostało poprawnie utworzone należy użyć poprawnej formy adresu email i hasła o długości minimum 6 znaków. \newline 
-Podobnie wygląda to w funkcji odpowiadającej za logowanie. 
+Na rysunku 4.13 przedstawiono funkcję rejestracji. Przy użyciu autoryzacji Firebase torzone jest nowe konto użytkownika. Pobrany zostaje Email i hasło a użytkownik otrzymuje unikalny numer Uid. Aby konto zostało poprawnie utworzone należy użyć poprawnej formy adresu email i hasła o długości minimum 6 znaków. \newline 
+Podobnie wygląda to w funkcji odpowiadającej za logowanie przedstawionej na rysunku 4.14. 
 
 \begin{figure}[!htb]
 	\begin{center}
@@ -192,7 +197,7 @@ Widoczna na rysunku 4.15 funkcja \textbf{IsSignIn} sprawdza jaki użytkownik jes
 	\end{center}
 \end{figure}       
 
-Funkcja SignOut odpowiada za wylogowanie użytkownika z aplikacji. Jeżeli wszytko przebiegnie prawidłowo zwróci ona wartość true a jeżeli operacja się nie powiedzie to zwróci wartość false. \newline \newline 
+Funkcja SignOut widoczna na rysunku 4.16 odpowiada za wylogowanie użytkownika z aplikacji. Jeżeli wszytko przebiegnie prawidłowo zwróci ona wartość true a jeżeli operacja się nie powiedzie to zwróci wartość false. \newline \newline 
 
 W rozwiązaniu głównym w pliku App.xaml dodana jest instrukcja odpowiedzialna za przekierowanie użytkownika. \newline \newline
 

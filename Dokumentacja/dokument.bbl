@@ -23,14 +23,49 @@
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{title}{Strona internetowa firmy Microsoft}
+      \field{title}{Strona internetowa firmy Microsoft opisująca Xamarin Forms}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/pl-pl/xamarin/get-started/what-is-xamarin-forms
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/pl-pl/xamarin/get-started/what-is-xamarin-forms
+      \endverb
+    \endentry
+    \entry{www2}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Strona internetowa firmy Microsoft opisująca Xamarin Essentials}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://docs.microsoft.com/pl-pl/xamarin/essentials/?context=xamarin/xamarin-forms
       \endverb
       \verb{url}
       \verb https://docs.microsoft.com/pl-pl/xamarin/essentials/?context=xamarin/xamarin-forms
       \endverb
-      \warn{\item Entry 'www1' (bibliografia.bib): Invalid format '2021-11-6' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{www3}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Strona internetowa firebase Google}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/auth
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/auth
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

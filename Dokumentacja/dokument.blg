@@ -1,16 +1,14 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'dokument.blg'
-[286] biber-MSWIN32:340> INFO - === 
-[377] Biber.pm:415> INFO - Reading 'dokument.bcf'
-[700] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[745] Biber.pm:4340> INFO - Processing section 0
-[778] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
-[934] bibtex.pm:1689> INFO - LaTeX decoding ...
-[970] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia.bib'
-[1037] Utils.pm:395> WARN - Entry 'www1' (bibliografia.bib): Invalid format '2021-11-6' of date field 'urldate' - ignoring
-[1071] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1071] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1071] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pl-PL'
-[1086] bbl.pm:654> INFO - Writing 'dokument.bbl' with encoding 'UTF-8'
-[1087] bbl.pm:757> INFO - Output to dokument.bbl
-[1088] Biber.pm:128> INFO - WARNINGS: 1
+[375] biber-MSWIN32:340> INFO - === 
+[503] Biber.pm:415> INFO - Reading 'dokument.bcf'
+[680] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
+[713] Biber.pm:4340> INFO - Processing section 0
+[768] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[874] bibtex.pm:1689> INFO - LaTeX decoding ...
+[924] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia.bib'
+[1059] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1059] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1059] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pl-PL'
+[1097] bbl.pm:654> INFO - Writing 'dokument.bbl' with encoding 'UTF-8'
+[1098] bbl.pm:757> INFO - Output to dokument.bbl

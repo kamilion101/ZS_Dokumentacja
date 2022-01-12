@@ -5,23 +5,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {{2}.2}{\ignorespaces layout aplikacji po otwarciu menu\relax }}{5}{figure.caption.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{3}.1}{\ignorespaces Layout - Mapa\relax }}{8}{figure.caption.3}%
+\contentsline {figure}{\numberline {{3}.1}{\ignorespaces Layout - Mapa\relax }}{7}{figure.caption.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{3}.2}{\ignorespaces Layout - Wyniki\relax }}{9}{figure.caption.4}%
+\contentsline {figure}{\numberline {{3}.2}{\ignorespaces Layout - Wyniki\relax }}{8}{figure.caption.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{3}.3}{\ignorespaces Layout - Zdjęcia\relax }}{9}{figure.caption.5}%
+\contentsline {figure}{\numberline {{3}.3}{\ignorespaces Layout - Zdjęcia\relax }}{8}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{3}.4}{\ignorespaces Layout - Wybierz normę\relax }}{10}{figure.caption.6}%
+\contentsline {figure}{\numberline {{3}.4}{\ignorespaces Layout - Wybierz normę\relax }}{9}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{3}.5}{\ignorespaces Odznaczenie właściwości w Opcjach systemu Android\relax }}{10}{figure.caption.7}%
+\contentsline {figure}{\numberline {{3}.5}{\ignorespaces Odznaczenie właściwości w Opcjach systemu Android\relax }}{9}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{3}.6}{\ignorespaces Archiwizacja rozwiązania dla systemu Android\relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {{3}.6}{\ignorespaces Archiwizacja rozwiązania dla systemu Android\relax }}{10}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{3}.7}{\ignorespaces Dystrybucja pliku\relax }}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {{3}.7}{\ignorespaces Dystrybucja pliku\relax }}{10}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {{3}.8}{\ignorespaces Wybranie kanału dystrybucji\relax }}{11}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{3}.9}{\ignorespaces Podpis za pomocą aliasu\relax }}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {{3}.9}{\ignorespaces Podpis za pomocą aliasu\relax }}{11}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {{4}.1}{\ignorespaces Dodanie strony Menu do menu bocznego\relax }}{12}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
@@ -37,7 +37,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {{4}.7}{\ignorespaces Ustawienie opcji w mapa.xaml\relax }}{15}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{4}.8}{\ignorespaces Plik Zdjecia.xml\relax }}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {{4}.8}{\ignorespaces Plik Zdjecia.xml\relax }}{16}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {{4}.9}{\ignorespaces Plik Zdjecia.xml.cs\relax }}{16}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
@@ -57,12 +57,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {{4}.17}{\ignorespaces Przekierowanie w pliku App.xaml\relax }}{20}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{6}.1}{\ignorespaces Strona startowa\relax }}{21}{figure.caption.29}%
+\contentsline {figure}{\numberline {{5}.1}{\ignorespaces Tworzenie nowego konta\relax }}{21}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{6}.2}{\ignorespaces Strona rejestracji\relax }}{22}{figure.caption.30}%
+\contentsline {figure}{\numberline {{5}.2}{\ignorespaces Informacja o utworzeniu konta\relax }}{21}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{6}.3}{\ignorespaces Strona główna\relax }}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {{5}.3}{\ignorespaces Nowe konto w bazie danych\relax }}{22}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{6}.4}{\ignorespaces Widok po włączeniu menu bocznego\relax }}{23}{figure.caption.32}%
+\contentsline {figure}{\numberline {{5}.4}{\ignorespaces Logowanie na utworzone konto\relax }}{22}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {{6}.5}{\ignorespaces mapa\relax }}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {{5}.5}{\ignorespaces Widok po zalogowaniu\relax }}{23}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{5}.6}{\ignorespaces Wyniki\relax }}{23}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{5}.7}{\ignorespaces Mapa z lokalizacją\relax }}{24}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{5}.8}{\ignorespaces Google Maps\relax }}{24}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{5}.9}{\ignorespaces Wykonanie zdjęcia\relax }}{25}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{5}.10}{\ignorespaces Wyświetlenie zdjęcia\relax }}{25}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{5}.11}{\ignorespaces Wybieranie zdjęcia z galerii\relax }}{26}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{5}.12}{\ignorespaces Nowe zdjęcie\relax }}{26}{figure.caption.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.1}{\ignorespaces Strona startowa\relax }}{27}{figure.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.2}{\ignorespaces Strona rejestracji\relax }}{27}{figure.caption.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.3}{\ignorespaces Strona główna\relax }}{28}{figure.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.4}{\ignorespaces Widok po włączeniu menu bocznego\relax }}{28}{figure.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.5}{\ignorespaces Mapa\relax }}{29}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.6}{\ignorespaces Google Maps i wybór miejsca docelowego\relax }}{29}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.7}{\ignorespaces Zakładka Zdjęcia\relax }}{30}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.8}{\ignorespaces Aparat\relax }}{30}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {{6}.9}{\ignorespaces Wybór zdjęcia z galerii\relax }}{30}{figure.caption.49}%
